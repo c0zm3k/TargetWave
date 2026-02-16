@@ -1,0 +1,12 @@
+# Git Ignore
+.DS_Store
+node_modules/
+dist/
+build/
+.env
+.vscode/
+.idea/
+*.log
+temp/
+tmp/
+.gemini/

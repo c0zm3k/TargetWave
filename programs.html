@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academy Programs | Target Wave</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Syne:wght@700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="pt-24">
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <span class="loader"></span>
+    </div>
+
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass border-b border-white/5">
+        <div class="flex justify-between items-center p-6 max-w-7xl mx-auto">
+            <a href="index.html" class="text-3xl font-extrabold tracking-tighter text-white">TARGET<span
+                    class="text-[#FFD700]">WAVE</span></a>
+            <div
+                class="hidden md:flex items-center space-x-6 text-[10px] uppercase tracking-widest font-bold nav-links">
+                <a href="index.html" class="text-white hover:text-[#FFD700] transition">Home</a>
+                <a href="about.html" class="text-white hover:text-[#FFD700] transition">Vision</a>
+                <a href="programs.html" class="text-[#FFD700]">Programs</a>
+                <a href="faq.html" class="text-white hover:text-[#FFD700] transition">FAQ</a>
+                <a href="contact.html" class="text-white hover:text-[#FFD700] transition">Contact</a>
+                <a href="enroll.html"
+                    class="bg-[#FFD700] text-black px-5 py-2 rounded-full hover:scale-105 transition">Enroll</a>
+            </div>
+
+            <!-- Hamburger -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">Vision</a>
+        <a href="programs.html">Programs</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+        <a href="enroll.html" class="text-[#FFD700]">Enroll</a>
+    </div>
+
+    <main>
+        <section class="py-20 px-6 max-w-7xl mx-auto text-center reveal">
+            <h1 class="fluid-header font-black mb-8 italic uppercase text-white">
+                THE <span class="text-gradient">CURRICULUM.</span>
+            </h1>
+            <p class="text-gray-500 max-w-2xl mx-auto text-lg font-light">Engineered for impact. Master the fundamental
+                pillars of modern influence.</p>
+        </section>
+
+        <!-- Course Modules -->
+        <section class="pb-32 px-6 max-w-7xl mx-auto space-y-12">
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Module 01 -->
+                <div
+                    class="bg-zinc-950/40 backdrop-blur-xl p-12 rounded-[50px] border border-white/5 hover:border-[#FFD700]/30 transition group">
+                    <div class="text-[#FFD700] text-sm font-black tracking-[0.3em] uppercase mb-6">Module 01</div>
+                    <h2 class="text-4xl font-bold mb-6 italic group-hover:text-[#FFD700] transition text-white">
+                        PERSONAL<br>GROWTH</h2>
+                    <p class="text-gray-400 mb-8 leading-relaxed font-light">Unlock your latent potential through
+                        behavioral psychology and mental fortitude training.</p>
+                    <a href="enroll.html"
+                        class="inline-block bg-white text-black px-8 py-3 rounded-2xl font-black text-xs hover:bg-[#FFD700] transition uppercase tracking-widest">Inquire</a>
+                </div>
+                <!-- Module 02 -->
+                <div
+                    class="bg-zinc-950/40 backdrop-blur-xl p-12 rounded-[50px] border border-white/5 hover:border-[#FFD700]/30 transition group">
+                    <div class="text-[#FFD700] text-sm font-black tracking-[0.3em] uppercase mb-6">Module 02</div>
+                    <h2 class="text-4xl font-bold mb-6 italic group-hover:text-[#FFD700] transition text-white">
+                        LEADERSHIP<br>MASTERY</h2>
+                    <p class="text-gray-400 mb-8 leading-relaxed font-light">Lead with authority and empathy. Designed
+                        for those who aim to inspire and manage high-stakes teams.</p>
+                    <a href="enroll.html"
+                        class="inline-block bg-white text-black px-8 py-3 rounded-2xl font-black text-xs hover:bg-[#FFD700] transition uppercase tracking-widest">Inquire</a>
+                </div>
+                <!-- Module 03 -->
+                <div
+                    class="bg-zinc-950/40 backdrop-blur-xl p-12 rounded-[50px] border border-white/5 hover:border-[#FFD700]/30 transition group">
+                    <div class="text-[#FFD700] text-sm font-black tracking-[0.3em] uppercase mb-6">Module 03</div>
+                    <h2 class="text-4xl font-bold mb-6 italic group-hover:text-[#FFD700] transition text-white">
+                        LIFE<br>SKILLS</h2>
+                    <p class="text-gray-400 mb-8 leading-relaxed font-light">The essential toolkit for the modern era.
+                        Master financial literacy and social intelligence.</p>
+                    <a href="enroll.html"
+                        class="inline-block bg-white text-black px-8 py-3 rounded-2xl font-black text-xs hover:bg-[#FFD700] transition uppercase tracking-widest">Inquire</a>
+                </div>
+                <!-- PTTD Diploma -->
+                <div
+                    class="bg-zinc-950/40 backdrop-blur-xl p-12 rounded-[50px] border-[#FFD700] border-2 shadow-[0_0_80px_rgba(255,215,0,0.1)] transition group relative overflow-hidden">
+                    <div class="text-[#FFD700] text-sm font-black tracking-[0.3em] uppercase mb-6">Capstone</div>
+                    <h2 class="text-4xl font-bold mb-6 italic text-[#FFD700]">PTTD<br>DIPLOMA</h2>
+                    <p class="text-gray-200 mb-8 leading-relaxed font-light">The Professional Training & Talent
+                        Development (PTTD) Diploma is our flagship immersive.</p>
+                    <a href="enroll.html"
+                        class="inline-block bg-[#FFD700] text-black px-10 py-4 rounded-2xl font-black text-xs hover:bg-white transition uppercase tracking-widest">ADMISSIONS
+                        OPEN</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-20 border-t border-white/5 text-center">
+        <div class="text-3xl font-extrabold tracking-tighter mb-8 text-white">TARGET<span
+                class="text-[#FFD700]">WAVE</span></div>
+        <p class="text-gray-600 text-[10px] uppercase tracking-widest font-bold">© 2025 Target Wave Academy • Built for
+            Leaders • <a href="https://instagram.com/targetwave.academy" class="hover:text-[#FFD700] transition">Follow
+                IG</a></p>
+    </footer>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+
+</html>

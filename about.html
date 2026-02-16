@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Vision | Target Wave Academy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Syne:wght@700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="pt-24">
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <span class="loader"></span>
+    </div>
+
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass border-b border-white/5">
+        <div class="flex justify-between items-center p-6 max-w-7xl mx-auto">
+            <a href="index.html" class="text-3xl font-extrabold tracking-tighter text-white">TARGET<span
+                    class="text-[#FFD700]">WAVE</span></a>
+            <div
+                class="hidden md:flex items-center space-x-6 text-[10px] uppercase tracking-widest font-bold nav-links">
+                <a href="index.html" class="text-white hover:text-[#FFD700] transition">Home</a>
+                <a href="about.html" class="text-[#FFD700]">Vision</a>
+                <a href="programs.html" class="text-white hover:text-[#FFD700] transition">Programs</a>
+                <a href="faq.html" class="text-white hover:text-[#FFD700] transition">FAQ</a>
+                <a href="contact.html" class="text-white hover:text-[#FFD700] transition">Contact</a>
+                <a href="enroll.html"
+                    class="bg-[#FFD700] text-black px-5 py-2 rounded-full hover:scale-105 transition">Enroll</a>
+            </div>
+
+            <!-- Hamburger -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">Vision</a>
+        <a href="programs.html">Programs</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+        <a href="enroll.html" class="text-[#FFD700]">Enroll</a>
+    </div>
+
+    <main>
+        <section class="py-24 px-6 max-w-7xl mx-auto text-center reveal">
+            <h1 class="fluid-header font-black mb-12 italic uppercase text-white">
+                BEYOND <br class="sm:hidden"><span class="text-gradient">COMMUNICATION.</span>
+            </h1>
+            <p class="text-gray-400 text-lg md:text-xl font-light leading-relaxed max-w-2xl mx-auto">
+                Target Wave is the intersection of cognitive science, performing arts, and strategic leadership. We
+                don't just teach you how to talk; we teach you how to command.
+            </p>
+        </section>
+
+        <!-- Mentors -->
+        <section class="py-20 px-6 max-w-7xl mx-auto">
+            <h2 class="text-4xl font-bold mb-16 italic uppercase text-center text-white">THE <span
+                    class="text-[#FFD700]">MENTORS.</span></h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-zinc-950/40 backdrop-blur-md p-10 rounded-[40px] border border-white/5">
+                    <h3 class="text-2xl font-bold mb-2 text-[#FFD700]">Dhruti Parvez</h3>
+                    <p class="text-gray-500 uppercase text-[10px] tracking-widest font-bold mb-6">Master Communication
+                        Coach</p>
+                    <p class="text-gray-400 font-light text-sm">Specializing in radical vocal transformation and stage
+                        presence.</p>
+                </div>
+                <div class="bg-zinc-950/40 backdrop-blur-md p-10 rounded-[40px] border border-white/5">
+                    <h3 class="text-2xl font-bold mb-2 text-[#FFD700]">Zaid Ahmed</h3>
+                    <p class="text-gray-500 uppercase text-[10px] tracking-widest font-bold mb-6">Strategic Leadership
+                        Mentor</p>
+                    <p class="text-gray-400 font-light text-sm">Expert in behavioral psychology and corporate influence
+                        dynamics.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-20 border-t border-white/5 text-center">
+        <div class="text-3xl font-extrabold tracking-tighter mb-8 text-white">TARGET<span
+                class="text-[#FFD700]">WAVE</span></div>
+        <p class="text-gray-600 text-[10px] uppercase tracking-widest font-bold">© 2025 Target Wave Academy • Built for
+            Leaders • <a href="https://instagram.com/targetwave.academy" class="hover:text-[#FFD700] transition">Follow
+                IG</a></p>
+    </footer>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+
+</html>

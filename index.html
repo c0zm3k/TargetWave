@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target Wave | Master Your Communication</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Syne:wght@700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <span class="loader"></span>
+    </div>
+
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass border-b border-white/5">
+        <div class="flex justify-between items-center p-6 max-w-7xl mx-auto">
+            <a href="index.html" class="text-3xl font-extrabold tracking-tighter text-white">TARGET<span
+                    class="text-[#FFD700]">WAVE</span></a>
+            <div
+                class="hidden md:flex items-center space-x-6 text-[10px] uppercase tracking-widest font-bold nav-links">
+                <a href="index.html" class="text-[#FFD700]">Home</a>
+                <a href="about.html" class="text-white hover:text-[#FFD700] transition">Vision</a>
+                <a href="programs.html" class="text-white hover:text-[#FFD700] transition">Programs</a>
+                <a href="faq.html" class="text-white hover:text-[#FFD700] transition">FAQ</a>
+                <a href="contact.html" class="text-white hover:text-[#FFD700] transition">Contact</a>
+                <a href="enroll.html"
+                    class="bg-[#FFD700] text-black px-5 py-2 rounded-full hover:scale-105 transition">Enroll</a>
+            </div>
+
+            <!-- Hamburger -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">Vision</a>
+        <a href="programs.html">Programs</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+        <a href="enroll.html" class="text-[#FFD700]">Enroll</a>
+    </div>
+
+    <!-- Hero -->
+    <header class="relative min-h-screen flex flex-col justify-center items-center text-center px-6 overflow-hidden">
+        <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover z-0 hero-video">
+            <source
+                src="https://assets.mixkit.co/videos/preview/mixkit-close-up-of-a-person-speaking-into-a-microphone-41263-large.mp4"
+                type="video/mp4">
+        </video>
+        <div class="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-[#050505] z-10"></div>
+
+        <div class="relative z-20 reveal">
+            <h1 class="fluid-header-xl font-black leading-none mb-6 italic uppercase text-white">
+                AIM HIGH.<br><span class="text-gradient">SPEAK BOLD.</span>
+            </h1>
+            <p class="max-w-2xl mx-auto text-lg md:text-xl text-gray-400 mb-10 font-light">
+                Bridging the gap between your ideas and the world. Master Personal Growth, Leadership, and Life Skills.
+            </p>
+            <div class="flex flex-col md:flex-row gap-6 justify-center">
+                <a href="programs.html"
+                    class="bg-[#FFD700] text-black px-12 py-5 rounded-full font-bold text-lg hover:scale-105 transition shadow-[0_0_40px_rgba(255,215,0,0.2)]">Explore
+                    Programs</a>
+                <a href="contact.html"
+                    class="border border-white/20 px-12 py-5 rounded-full font-bold text-lg text-white hover:bg-white hover:text-black transition">Get
+                    in Touch</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Signature Programs -->
+        <section class="py-32 px-6 max-w-7xl mx-auto">
+            <h2 class="text-4xl md:text-6xl font-black mb-16 italic uppercase text-center text-white"><span
+                    class="text-[#FFD700]">SIGNATURE</span> PROGRAMS</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <a href="programs.html"
+                    class="p-8 bg-zinc-950/50 backdrop-blur-xl border border-white/5 rounded-[40px] hover-lift group border-t-[#FFD700]/20">
+                    <div class="text-[#FFD700] font-black uppercase tracking-widest text-[8px] mb-4">Module 01</div>
+                    <h3
+                        class="text-2xl font-bold mb-4 italic group-hover:text-[#FFD700] transition text-white uppercase">
+                        Personal Growth</h3>
+                    <p class="text-gray-500 text-xs leading-relaxed">Behavioral psychology & habit engineering.</p>
+                </a>
+                <a href="programs.html"
+                    class="p-8 bg-zinc-950/50 backdrop-blur-xl border border-white/5 rounded-[40px] hover-lift group border-t-[#FFD700]/20">
+                    <div class="text-[#FFD700] font-black uppercase tracking-widest text-[8px] mb-4">Module 02</div>
+                    <h3
+                        class="text-2xl font-bold mb-4 italic group-hover:text-[#FFD700] transition text-white uppercase">
+                        Leadership</h3>
+                    <p class="text-gray-500 text-xs leading-relaxed">Authority presence & strategic vision.</p>
+                </a>
+                <a href="programs.html"
+                    class="p-8 bg-zinc-950/50 backdrop-blur-xl border border-white/5 rounded-[40px] hover-lift group border-t-[#FFD700]/20">
+                    <div class="text-[#FFD700] font-black uppercase tracking-widest text-[8px] mb-4">Module 03</div>
+                    <h3
+                        class="text-2xl font-bold mb-4 italic group-hover:text-[#FFD700] transition text-white uppercase">
+                        Life Skills</h3>
+                    <p class="text-gray-500 text-xs leading-relaxed">Modern literacy & social intelligence.</p>
+                </a>
+                <a href="programs.html"
+                    class="p-8 bg-zinc-950 border border-[#FFD700] rounded-[40px] hover-lift group shadow-lg shadow-[#FFD700]/5">
+                    <div class="text-[#FFD700] font-black uppercase tracking-widest text-[8px] mb-4">Capstone</div>
+                    <h3 class="text-2xl font-bold mb-4 italic text-[#FFD700] uppercase">PTTD Diploma</h3>
+                    <p class="text-gray-400 text-xs leading-relaxed">Our 12-week flagship immersive transformation.</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-20 border-t border-white/5 text-center">
+        <div class="text-3xl font-extrabold tracking-tighter mb-8 text-white">TARGET<span
+                class="text-[#FFD700]">WAVE</span></div>
+        <p class="text-gray-600 text-[10px] uppercase tracking-widest font-bold">© 2025 Target Wave Academy • Built for
+            Leaders • <a href="https://instagram.com/targetwave.academy" class="hover:text-[#FFD700] transition">Follow
+                IG</a></p>
+    </footer>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+
+</html>
